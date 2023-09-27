@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/3d-rendering-background-cars-600w-1011249619.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    display: none;
+    color: white;
+    font-size: 90px;
+    padding: 80px 50px ;
+}
+.totalprice{
+    display: none;
+    padding-top: 50px;
+    padding-left: 200px ;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+ .btn{
+background-color: rgb(255, 0, 0);
+    text-align: center;
+    display: none;
+    border-radius: 20px;
+    margin: 90px 59px;
+    width: 100px;
+    height: 40px;
+   margin-right:200px;
+
+} 
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.card-img-top{
+    float: left;
+    width: 100px;
+    height: 300px;
+    margin-left: 1px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
